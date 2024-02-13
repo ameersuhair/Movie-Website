@@ -1,0 +1,82 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(cine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 50px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.genre {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+.genre-list{
+    font-size: 40px;
+    list-style-type: decimal;
+    list-style-position: outside;
+   
+}
+.my-button{
+    width: 500;
+    height: 100;
+    font-size: 50px;
+}
+
+.Explore{
+    font-size: 30px;
+    font-style: italic;
+}
+.p1
+{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
